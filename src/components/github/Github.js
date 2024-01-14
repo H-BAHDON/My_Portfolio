@@ -13,7 +13,6 @@ function Github() {
           username="H-BAHDON"
           blockSize={8}
           blockMargin={7}
-          color="#c084f5"
           fontSize={16}
         />
       </Col>
