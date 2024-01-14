@@ -31,7 +31,6 @@ function AboutCard() {
           <p style={{ color: "rgb(155 126 172)" }}>
             "Define a Programmer: A machine that turns coffee into code"{" "}
           </p>
-          <footer className="blockquote-footer">Hussein Bahdon</footer>
         </blockquote>
       </Card.Body>
     </Card>
