@@ -81,6 +81,7 @@ function NavBar() {
     as={Link}
     to="https://www.linkedin.com/in/hussein-bahdon-6890b7137/"
     onClick={() => updateExpanded(false)}
+    target="_blank"
   >
     <AiOutlineLinkedin style={{ marginBottom: "2px" }} /> LinkedIn
   </Nav.Link>
@@ -92,6 +93,7 @@ function NavBar() {
                 as={Link}
                 to="https://drive.google.com/file/d/1olyflL9EO3-yblVCCsaAWd-iVexxKhaf/view?usp=sharing"
                 onClick={() => updateExpanded(false)}
+                target="_blank"
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
