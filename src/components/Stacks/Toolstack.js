@@ -4,13 +4,18 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiSlack,
-  SiVercel,
   SiMacos,
+  SiDocker,
+  SiMiro,
+  SiGithubactions,
 } from "react-icons/si";
+
+import { FaGithub} from "react-icons/fa";
+
 
 function Toolstack() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+    <Row style={{ justifyContent: "center", paddingBottom: "50px", marginRight: 0 }}>
       <Col xs={4} md={2} className="tech-icons">
         <SiMacos />
       </Col>
@@ -24,7 +29,16 @@ function Toolstack() {
         <SiSlack />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <FaGithub />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMiro />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGithubactions />
       </Col>
     </Row>
   );
