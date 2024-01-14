@@ -2,16 +2,14 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 
-import chatify from "../../Assets/Projects/chatify.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import leaf from "../../Assets/Projects/leaf.png";
+import chatify from "../../Assets/Projects/Screenshot 2024-01-14 at 20.21.10.png";
+import bitsOfCode from "../../Assets/Projects/mmcode.png";
+import editor from "../../Assets/Projects/Screenshot 2024-01-14 at 20.12.00.png";
+import leaf from "../../Assets/Projects/Screenshot 2024-01-14 at 20.11.04.png";
 
 
 
 function Projects() {
-
-
   return (
     <Container fluid className="project-section">
       <Container>
