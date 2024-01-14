@@ -6,6 +6,7 @@ import Github from "../github/Github";
 import Techstack from "../Stacks/Techstack";
 import laptopImg from "../../Assets/about.png";
 import AboutCard from "../About/AboutCard";
+import Toolstack from "../Stacks/Toolstack";
 function Home() {
   return (
     <section>
@@ -41,7 +42,16 @@ function Home() {
           </Row>
         </Container>
       </Container>
+
+
       <Intro />
+
+ <div className="Skillset">
+     <h1 className="project-heading">
+          Professional <strong className="white">Tools I use </strong>
+        </h1>
+        <Toolstack/>
+     </div>
       <div className="github">
       <Github />
       
