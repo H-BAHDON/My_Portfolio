@@ -1,13 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
-import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+
 
 function Intro() {
   return (
@@ -29,7 +22,7 @@ function Intro() {
               <br />
               <br />
 
-              My project experiences include working on the CodeYourFuture Products, utilizing technologies such as <i><b className="purple">JavaScript</b></i>, <i><b className="purple">React</b></i>, <i><b className="purple">Docker</b></i>, and conducting end-to-end testing with tools like <i><b className="purple">Postman</b></i>. The Big Mouth project showcased my skills in implementing XD designs using AWS Cloud, Lambda, IAM, DynamoDB, and API Gateway with React.
+              My project experiences include working on the CodeYourFuture Products, utilising technologies such as <i><b className="purple">JavaScript</b></i>, <i><b className="purple">React</b></i>, <i><b className="purple">Docker</b></i>, and conducting end-to-end testing with tools like <i><b className="purple">Postman</b></i>. The Big Mouth project showcased my skills in implementing XD designs using AWS Cloud, Lambda, IAM, DynamoDB, and API Gateway with React.
 
               <br />
               <br />
@@ -49,7 +42,7 @@ function Intro() {
               <br />
               <br />
 
-              My passion extends to building products with <b className="purple">Node.js</b> and utilizing modern JavaScript libraries and frameworks such as <i><b className="purple">React.js</b></i> and <i><b className="purple">Next.js</b></i>. I thrive in areas related to <b className="purple">Blockchain</b> and am committed to pushing the boundaries of what's possible in the tech industry.
+              My passion extends to building products with <b className="purple">Node.js</b> and utilising modern JavaScript libraries and frameworks such as <i><b className="purple">React.js</b></i> and <i><b className="purple">Next.js</b></i>. I thrive in areas related to <b className="purple">Blockchain</b> and am committed to pushing the boundaries of what's possible in the tech industry.
 
             </p>
 
