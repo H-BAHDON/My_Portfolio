@@ -257,7 +257,7 @@ html {
   .home-section {
     position: relative;
     z-index: -1;
-    background-color: #C4DFDF;
+    background-color: #212a2a;
     background-position: top center;
     background-repeat: no-repeat;
     padding-bottom: 30px !important;
@@ -324,7 +324,7 @@ html {
     position: relative;
     padding-bottom: 70px !important;
     padding-top: 70px !important;
-    background-color: #D2E9E9;
+    background-color: #2b3737;
   }
   
   .home-about-description {
